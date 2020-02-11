@@ -1,7 +1,7 @@
 <template>
   <div>
-    <span class="number">{{ randomNumber }}</span>
-    <button class="btn" @click="getRandomNumber">Generate Random Number</button>
+    <span>{{ randomNumber }}</span>
+    <button  @click="getRandomNumber">Generate Random Number</button>
   </div>
 </template>
 
