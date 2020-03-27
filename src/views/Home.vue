@@ -1,9 +1,14 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
+    <ReviewList />
   </div>
 </template>
 
 <script>
-export default {}
+import ReviewList from '@/components/ReviewList.vue'
+export default {
+  components: {
+    ReviewList
+  }
+}
 </script>
