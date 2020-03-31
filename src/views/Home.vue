@@ -1,14 +1,14 @@
 <template>
   <div class="home">
-    <ReviewList />
+    <MessageDisplay />
   </div>
 </template>
 
 <script>
-import ReviewList from '@/components/ReviewList.vue'
+import MessageDisplay from '@/components/MessageDisplay'
 export default {
   components: {
-    ReviewList
+    MessageDisplay
   }
 }
 </script>
