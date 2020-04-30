@@ -1,14 +1,7 @@
 <template>
-  <div class="home">
-    <MessageDisplay />
-  </div>
+  <div class="home"></div>
 </template>
 
 <script>
-import MessageDisplay from '@/components/MessageDisplay'
-export default {
-  components: {
-    MessageDisplay
-  }
-}
+export default {}
 </script>
