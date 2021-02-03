@@ -5,7 +5,9 @@ describe('MessageContainer', () => {
   it('Wraps MessageDisplay component', () => {
     const wrapper = mount(MessageContainer, {
       stubs: {
-        MessageDisplay: '<p data-testid="message">Hello from the db!</p>'
+        MessageDisplay: {
+          template: `<p data-testid="message">Hello from the db!</p>`
+        }
       }
     })
 
